@@ -4,28 +4,34 @@
 
 ## Links úteis
 
-[Download Git](https://git-scm.com/downloads).
+[Download Git](https://git-scm.com/downloads)
 
-[Documentação do Git](https://git-scm.com/doc).
+[Documentação do Git](https://git-scm.com/doc)
 
-[Documentação do Bootstrap](https://getbootstrap.com.br/).
+[Documentação do Bootstrap](https://getbootstrap.com.br/)
 
 
-## Paleta de cores: 
+## Banco de imagens gratuitas
 
-[Tilda Colors](https://tilda.cc/colors/).
+[Pexels](https://pexels.com)
 
-[Adobe Colors](https://color.adobe.com/pt/).
+[Unsplash](https://unsplash.com/)
+
+## Paleta de cores 
+
+[Tilda Colors](https://tilda.cc/colors/)
+
+[Adobe Colors](https://color.adobe.com/pt/)
 
 ## Fontes para web
 
-[Google Fonts](https://fonts.google.com).
+[Google Fonts](https://fonts.google.com)
 
 ## Editores de código
 
-[Visual Studio Code](https://code.visualstudio.com/download).
+[Visual Studio Code](https://code.visualstudio.com/download)
 
-[Sublime Text 3](https://www.sublimetext.com/download).
+[Sublime Text 3](https://www.sublimetext.com/download)
 
 ## Software visual para Controle de versão no Github
 
@@ -34,8 +40,9 @@
 ## Sites legais para aprender git
 
 https://try.github.io/
+
 https://learngitbranching.js.org/
 
 Repositório com o pdf completo utilizado no workshop:
-[PDF-GIT-E-GITHUB](https://github.com/rebecagrn/workshop-git-e-github).
+[PDF-GIT-E-GITHUB](https://github.com/rebecagrn/workshop-git-e-github)
 

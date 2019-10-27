@@ -22,9 +22,16 @@ body {
   font-size: 3rem;
 }
 
+.content-section .diag {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
 .content-section-heading h3 {
   font-size: 1rem;
   text-transform: uppercase;
+  color: #FF9415 !important;
 }
 
 h1,
@@ -84,18 +91,19 @@ h6 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   /*background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");*/
-  background: #6E36CA;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  */
+  background: linear-gradient(155deg, rgba(58,176,214,1) 18%, rgba(21,93,116,1) 100%);
 }
 
 .masthead h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   margin: 0;
   padding: 0;
-  color: rgb(227, 232, 233);
+  color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -103,7 +111,7 @@ h6 {
     height: 100vh;
   }
   .masthead h1 {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -151,7 +159,7 @@ h6 {
 
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
-  background: rgba(52, 58, 64, 0.1);
+  background: rgba(114, 103, 240, 0.1);
   height: 80px;
   line-height: 50px;
   padding-top: 15px;
@@ -208,11 +216,17 @@ h6 {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
+.service-icon:hover {
+  color: #FF9415;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
 .callout {
   padding: 4rem 0;
   background: rgb(233, 233, 233);
-  /*background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");*/
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.4))), url("../img/bg-cta-section.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-cta-section.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -288,7 +302,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(50, 158, 190, 0.8);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -305,7 +319,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #292929;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -326,14 +340,16 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #939598!important;
-  border-color: #939598 !important;
+  background-color: #FF9415 !important;
+  border-color: #FF9415 !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #c0c1c4 !important;
-  border-color: #c0c1c4 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: rgb(238, 190, 31) !important;
+  transition: .2s ease-in;
 }
 
 .btn-secondary {
