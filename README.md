@@ -5,13 +5,16 @@
 ## Links úteis
 
 [Download Git](https://git-scm.com/downloads).
+
 [Documentação do Git](https://git-scm.com/doc).
+
 [Documentação do Bootstrap](https://getbootstrap.com.br/).
 
 
 ## Paleta de cores: 
 
 [Tilda Colors](https://tilda.cc/colors/).
+
 [Adobe Colors](https://color.adobe.com/pt/).
 
 ## Fontes para web
@@ -21,6 +24,7 @@
 ## Editores de código
 
 [Visual Studio Code](https://code.visualstudio.com/download).
+
 [Sublime Text 3](https://www.sublimetext.com/download).
 
 ## Software visual para Controle de versão no Github
@@ -32,6 +36,6 @@
 https://try.github.io/
 https://learngitbranching.js.org/
 
-Repositório com o template utilizado no workshop:
-[rebecagrn.github.io](https://github.com/rebecagrn/rebecagrn.github.io).
+Repositório com o pdf completo utilizado no workshop:
+[PDF-GIT-E-GITHUB](https://github.com/rebecagrn/workshop-git-e-github).
 
