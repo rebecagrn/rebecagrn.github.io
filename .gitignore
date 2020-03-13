@@ -1,1 +1,8 @@
 node_modules
+vendor
+scss/*
+.travis.yml
+gulpfile.js
+package.json
+js/main.min.js
+css/style.min.css
